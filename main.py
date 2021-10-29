@@ -6,7 +6,7 @@ fp = open('sample.txt', "r", encoding="utf-8")
 specify_word = 'hoge'
 
 # ファイルをリスト型で読み込む。
-# sample.txtの場合、['hoge', 'fuga', 'piyo', 'aiueo', 'kakikukeko', 'hogepiyo']で読み込む。
+# 今回(sample.txt)の場合、['hoge', 'fuga', 'piyo', 'aiueo', 'kakikukeko', 'hogepiyo']で読み込む。
 # 参考 : https://note.nkmk.me/python-file-io-open-with/
 # for文を回すことで、wordの中へ順に'hoge', 'fuga', ...が格納される。
 for word in fp.readlines():
