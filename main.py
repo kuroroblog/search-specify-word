@@ -5,7 +5,7 @@ fp = open('sample.txt', "r", encoding="utf-8")
 # 特定の文字列を設定する。hogeとする。
 specify_word = 'hoge'
 
-# ファイルをリスト形式で読み込む。
+# ファイルをリスト型で読み込む。
 # sample.txtの場合、['hoge', 'fuga', 'piyo', 'aiueo', 'kakikukeko', 'hogepiyo']で読み込む。
 # 参考 : https://note.nkmk.me/python-file-io-open-with/
 # for文を回すことで、wordの中へ順に'hoge', 'fuga', ...が格納される。
