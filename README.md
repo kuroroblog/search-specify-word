@@ -13,3 +13,4 @@
 8. `$ python main.py`を実行する。
 
 ## 実行結果
+<img width="1680" alt="screenshot 2021-10-29 9 10 47" src="https://user-images.githubusercontent.com/23373288/139352664-5a0eb088-b265-4f17-84e6-22712e66b110.png">
