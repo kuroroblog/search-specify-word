@@ -14,7 +14,7 @@ for word in fp.readlines():
     # 参考 : https://note.nkmk.me/python-str-remove-strip/
     word = word.strip()
 
-    # 特定の文字列が一致する、wordを探し出す。
+    # 特定の文字列と一致する、wordを探し出す。
     # 参考 : https://note.nkmk.me/python-in-basic/
     if specify_word in word:
         print(word)
