@@ -10,7 +10,7 @@ specify_word = 'hoge'
 # 参考 : https://note.nkmk.me/python-file-io-open-with/
 # for文を回すことで、wordの中へ順に'hoge', 'fuga', ...が格納される。
 for word in fp.readlines():
-    # strip : hogeの前後に含まれる、空白文字を削除する。
+    # strip : wordの前後に含まれる、空白文字を削除する。
     # 参考 : https://note.nkmk.me/python-str-remove-strip/
     word = word.strip()
 
